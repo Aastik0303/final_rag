@@ -1,13 +1,45 @@
+# ─────────────────────────────────────────────
+# Core Framework
+# ─────────────────────────────────────────────
 streamlit
+
+# ─────────────────────────────────────────────
+# Google Gemini / LangChain
+# ─────────────────────────────────────────────
 langchain
-langchain-google-genai
-langchain-community
 langchain-core
+langchain-community
+langchain-google-genai
+langchain-text-splitters
 langchain-huggingface
+google-generativeai
+
+# ─────────────────────────────────────────────
+# Data & Visualization
+# ─────────────────────────────────────────────
 pandas
+numpy
 matplotlib
 seaborn
-pypdf
+
+# ─────────────────────────────────────────────
+# RAG / Vector Store
+# ─────────────────────────────────────────────
 faiss-cpu
+pypdf
 sentence-transformers
-huggingface-hub
+
+# ─────────────────────────────────────────────
+# Image Processing + ViT Transformers
+# ─────────────────────────────────────────────
+Pillow
+transformers
+torch
+torchvision
+timm
+
+# ─────────────────────────────────────────────
+# Utilities
+# ─────────────────────────────────────────────
+python-dotenv
+requests
