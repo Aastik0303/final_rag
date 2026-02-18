@@ -261,7 +261,7 @@ load_custom_css()
 # ═════════════════════════════════════════════
 
 with st.sidebar:
-    st.markdown("# 🤖 AI Nexus Control")
+    st.markdown("# 🤖 Nexus AI")
     st.markdown("---")
 
     # Auto API Key Selection
@@ -504,7 +504,7 @@ elif chat_mode == "💬 General Chat":
     st.markdown("""
     <div style='background: rgba(255,255,255,0.1); border-radius: 12px; padding: 16px; margin-bottom: 16px;'>
         <h4 style='margin:0'>💬 General Chat Agent</h4>
-        <p style='margin:4px 0 0 0; opacity:0.85;'>A general-purpose AI assistant powered by Gemini. Ask anything — trivia, explanations, advice, summaries, translations, and more.</p>
+        <p style='margin:4px 0 0 0; opacity:0.85;'>A general-purpose AI assistant . Ask anything — trivia, explanations, advice, summaries, translations, and more.</p>
         <p style='margin:8px 0 0 0; opacity:0.7;'>✅ Multi-turn conversation &nbsp;|&nbsp; ✅ Any topic &nbsp;|&nbsp; ✅ Fast responses</p>
     </div>
     """, unsafe_allow_html=True)
@@ -512,7 +512,7 @@ elif chat_mode == "💬 General Chat":
     msgs = StreamlitChatMessageHistory(key="gen_chat_history")
 
     if len(msgs.messages) == 0:
-        msgs.add_ai_message("👋 Hello! I'm your AI assistant. How can I help you today?")
+        msgs.add_ai_message("👋 Hello Aastik! I'm your AI assistant. How can I help you today?")
 
     for msg in msgs.messages:
         with st.chat_message(msg.type):
