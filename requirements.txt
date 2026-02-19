@@ -41,5 +41,11 @@ timm
 # ─────────────────────────────────────────────
 # Utilities
 # ─────────────────────────────────────────────
+Pillow>=10.3.0
+
+
+youtube-transcript-api
+yt-dlp
+
 python-dotenv
 requests
