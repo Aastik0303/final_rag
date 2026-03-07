@@ -310,7 +310,7 @@ with st.sidebar:
     st.markdown("# 🤖 AI Nexus Control")
     st.markdown("---")
 
-    api_keys = ['AIzaSyBFJnwO_-55M6YbMuxgYtQFxVDCpghi-Ps'
+    api_keys = ['AIzaSyC4zRqRuAMJwoZRtb453ZYPzDn66PozHs0'
     ]
     if 'api_key' not in st.session_state:
         st.session_state.api_key = random.choice(api_keys)
